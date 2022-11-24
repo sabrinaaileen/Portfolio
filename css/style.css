@@ -1,3 +1,55 @@
+:root {
+  --background-color: rgba(242, 249, 241, 0.2);
+  --primary-color: #4c9173;
+  --secondary-color: #3c4245;
+  --third-color: #2b3d14;
+  --heading-font-family: Georgia, "Times New Roman", Times, serif;
+  --secondary-font-family: "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+}
 body {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.hero {
+  background-color: var(--background-color);
+  margin: 40px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+  font-family: var(--heading-font-family);
+  color: var(--third-color);
+  padding-bottom: 20px;
+}
+h1 {
+  font-size: 96px;
+}
+h2 {
+  font-size: 42px;
+}
+h3 {
+  font-size: 32px;
+}
+#homepage-container {
+  margin-top: 50px;
+}
+.homepage-link {
+  border: 1px solid var(--third-color);
+  padding: 25px 30px;
+  background-color: white;
+  color: #2b3d14;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.homepage-link-2 {
+  border: 1px solid var(--third-color);
+  padding: 25px 30px;
+  background-color: var(--third-color);
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
 }
