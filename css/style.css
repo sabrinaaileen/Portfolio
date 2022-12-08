@@ -106,4 +106,65 @@ p {
   .make-space {
     margin-bottom: 50px;
   }
+  .image-coat-openhair {
+    max-width: 200px;
+  }
+  .card {
+    max-width: 200px;
+  }
+}
+.aboutme-button {
+  border: 1px solid var(--third-color);
+  border-radius: 5px;
+  padding: 10px 15px;
+  background-color: var(--third-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  text-decoration: none;
+  margin-top: 10px;
+}
+.about-section {
+  background-color: var(--third-color);
+  margin: 40px;
+  padding: 100px 10px 100px 10px;
+  border-radius: 10px;
+}
+.image-coat-openhair {
+  display: block;
+  margin: 50px auto;
+  width: 300px;
+}
+.cv {
+  background-color: rgba(162, 193, 28, 0.2);
+  margin: 40px;
+  padding: 100px 10px 100px 10px;
+  border-radius: 10px;
+}
+.special-heading {
+  color: #a2c11c;
+}
+.card {
+  display: block;
+  margin: 0 auto;
+  color: white;
+
+  background-color: var(--third-color);
+}
+.card-header {
+  font-weight: bolder;
+  text-decoration: underline;
+}
+.list-group-item {
+  background-color: #a2c11c;
+  color: white;
+}
+.cv-button {
+  border: 1px solid var(--third-color);
+  background-color: var(--third-color);
+  padding: 10px 15px;
+  color: white;
+  display: block;
+  margin: 0 auto;
+  margin-top: 150px;
+  border-radius: 5px;
 }
