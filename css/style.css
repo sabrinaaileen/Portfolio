@@ -77,42 +77,6 @@ p {
 .homepage-project-headings {
   color: var(--primary-color);
 }
-
-@media (max-width: 850px) {
-  h1 {
-    font-size: 48px;
-  }
-  h2 {
-    font-size: 32px;
-  }
-  h3 {
-    font-size: 28px;
-  }
-  .hero {
-    margin: 0 auto;
-  }
-  #photo-from-the-side {
-    width: 300px;
-  }
-  .homepage-link {
-    padding: 10px 15px 10px 15px;
-  }
-  .homepage-project-paragraphs {
-    display: none;
-  }
-  .homepage-project-links {
-    padding: 10px 15px 10px 15px;
-  }
-  .make-space {
-    margin-bottom: 50px;
-  }
-  .image-coat-openhair {
-    max-width: 200px;
-  }
-  .card {
-    max-width: 200px;
-  }
-}
 .aboutme-button {
   border: 1px solid var(--third-color);
   border-radius: 5px;
@@ -167,4 +131,70 @@ p {
   margin: 0 auto;
   margin-top: 150px;
   border-radius: 5px;
+}
+.portfolio {
+  background-color: rgba(162, 193, 28, 0.2);
+  margin: 40px;
+  padding: 100px 10px 100px 10px;
+  border-radius: 10px;
+}
+.project-images {
+  width: 400px;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.explanations {
+  text-align: center;
+  color: var(--third-color);
+  opacity: 0.9;
+  margin-bottom: 20px;
+}
+@media (max-width: 850px) {
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 28px;
+  }
+  .hero {
+    margin: 0 auto;
+  }
+  #photo-from-the-side {
+    width: 300px;
+  }
+  .homepage-link {
+    padding: 10px 15px 10px 15px;
+  }
+  .homepage-project-paragraphs {
+    display: none;
+  }
+  .homepage-project-links {
+    padding: 10px 15px 10px 15px;
+  }
+  .make-space {
+    margin-bottom: 50px;
+  }
+  .image-coat-openhair {
+    max-width: 200px;
+  }
+  .about-section {
+    margin: 0 auto;
+  }
+  .cv {
+    margin: 0 auto;
+  }
+  .card {
+    max-width: 200px;
+  }
+  .portfolio {
+    margin: 0 auto;
+  }
+  .project-images {
+    max-width: 200px;
+  }
 }
