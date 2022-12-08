@@ -151,6 +151,9 @@ p {
   opacity: 0.9;
   margin-bottom: 20px;
 }
+.contact-links {
+  color: white;
+}
 @media (max-width: 850px) {
   h1 {
     font-size: 48px;
