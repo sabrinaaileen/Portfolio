@@ -154,6 +154,37 @@ p {
 .contact-links {
   color: white;
 }
+.header {
+  margin: 0 auto;
+}
+nav {
+  padding: 20px 10px 5px 10px;
+}
+nav ul {
+  text-align: right;
+  padding: 0 auto;
+}
+nav li {
+  display: inline;
+}
+nav a {
+  text-decoration: none;
+  color: var(--third-color);
+  transition: all 100ms ease-in-out;
+  margin-left: 5px;
+}
+nav a:hover,
+nav li.active a {
+  background-color: var(--third-color);
+  color: white;
+  border: 1px solid var(--third-color);
+  border-radius: 5px;
+  padding: 5px 5px;
+}
+.special-paragraph {
+  color: var(--third-color);
+  text-align: left;
+}
 @media (max-width: 850px) {
   h1 {
     font-size: 48px;
